@@ -1,6 +1,5 @@
 /* 
-
-Project Name: Aviator | We Serve Coffee 
+Project Name: Kaffee | We Serve Coffee 
 Client: Kaffee
 Author: Shawn Shaligram 
 */
@@ -27,10 +26,13 @@ Author: Shawn Shaligram
 	font-family: 'Open Sans', sans-serif;
 }
 
-#navigation{
+nav{
 	padding-top:30px;
 }
 
+.on{
+	color:#a2834e;
+}
 li {
 	padding-bottom: 5px;
 	list-style:none;
@@ -262,6 +264,10 @@ blockquote{
 	 opacity: .8;
 }
 
+/* 
+CSS for the Location Page
+*/
+
 .location_line{
 	width: 700px;
 	height: 2px;
@@ -303,14 +309,12 @@ blockquote{
 	margin-left: 75px;
 	margin-bottom: 45px;
 	margin-top: 30px;
-
 }
-
 #sideBar{
 	width: 290px;
 	height: 200px;
 	display: block;
-	float: left;
+	float:left;
 	margin-right: 100px;
 }
 #mainContent{
@@ -319,7 +323,6 @@ blockquote{
     display:block;
     float:left;
 }
-
 #sideBar p {
 	text-align:left;
 }
