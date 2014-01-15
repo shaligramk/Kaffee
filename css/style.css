@@ -3,20 +3,9 @@ Project Name: Kaffee | We Serve Coffee
 Client: Kaffee
 Author: Shawn Shaligram 
 */
-.home {
-	/* set up a background image */
-	background: url('../images/menu-bg-image.jpg');
-}
-.menu {
-	/* set up a background image */
-	background: url('../images/tuscany.jpg');
-}
-.location {
-	/* set up a background image */
-	background: url('../images/menu-bg-image.jpg');
-}
-
 .home, .menu, .location{	
+	/* set up a background image */
+    background: url('../images/menu-bg-image.jpg');
 	/* the follow is the code to have the image display as a full page */
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
