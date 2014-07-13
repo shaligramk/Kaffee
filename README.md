@@ -1,4 +1,5 @@
 Kaffee
 ======
 
-Kaffee is a personal side project built with HTML5 and CSS3
+Kaffee is a personal side project built with HTML and CSS from scratch.
+

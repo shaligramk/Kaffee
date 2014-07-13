@@ -54,7 +54,7 @@ a:hover{
 	color: #a2834e;
 	margin: 10px auto 10px auto;
 	letter-spacing: 2px;
-	font-size: 120px;
+	font-size: 7em;
 	font-weight: lighter;
 	font-style: normal;
 	text-transform: uppercase;
@@ -142,6 +142,8 @@ opacity:.8;
 #list h1{
 text-align:center;
 padding-top:45px;
+margin-bottom:30px;
+font-size: 30px;
 }
 
 #menu_main{
@@ -326,3 +328,26 @@ CSS for the Location Page
 #sideBar p {
 	text-align:left;
 }
+
+/* Responsive Code */
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+ #hero{
+	width:338px;
+	height:450px;
+	margin-top:20px;
+	font-size: .8em;
+ }
+
+ #hero a {
+ 	text-align: left;
+ 	margin-left: 40px;
+ }
+
+  #hero p {
+ 	font-size: 1em;
+ 	width: 338px;
+ 	text-align: center;
+
+ }
