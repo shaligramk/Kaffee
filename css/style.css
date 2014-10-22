@@ -3,351 +3,314 @@ Project Name: Kaffee | We Serve Coffee
 Client: Kaffee
 Author: Shawn Shaligram 
 */
-.home, .menu, .location{	
-	/* set up a background image */
+
+.home, .menu, .location {
+    /* set up a background image */
+    
     background: url('../images/menu-bg-image.jpg');
-	/* the follow is the code to have the image display as a full page */
-	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+    /* the follow is the code to have the image display as a full page */
+    
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+    
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
-
-nav{
-	padding-top:30px;
+nav {
+    padding-top: 30px;
 }
-
-.on{
-	color:#a2834e;
+.on {
+    color: #a2834e;
 }
 li {
-	padding-bottom: 5px;
-	list-style:none;
+    padding-bottom: 5px;
+    list-style: none;
 }
-
-a{
-	text-transform:uppercase;
-	text-decoration:none;
-	color:#ffffff;
-	font-size:.9em;
-	letter-spacing:3px;
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: .9em;
+    letter-spacing: 3px;
 }
-a:hover{
-	color:#a2834e;
+a:hover {
+    color: #a2834e;
 }
-
-#hero{
-	width:570px;
-	background-color: rgba(0, 0, 0, .8);
-	height:auto;
-	margin: 0 auto;
-	margin-top:-40px;
-	-webkit-transition: opacity .4s ease;
-	-moz-transition: opacity .4s ease;
-	-o-transition: opacity .4s ease;
-	transition: opacity .4s ease;
+#hero {
+    width: 570px;
+    background-color: rgba(0, 0, 0, .8);
+    height: auto;
+    margin: 0 auto;
+    margin-top: -40px;
+    -webkit-transition: opacity .4s ease;
+    -moz-transition: opacity .4s ease;
+    -o-transition: opacity .4s ease;
+    transition: opacity .4s ease;
 }
-#hero h1, #menu h1{
-	padding-top: 60px;
-	color: #a2834e;
-	margin: 10px auto 10px auto;
-	letter-spacing: 2px;
-	font-size: 7em;
-	font-weight: lighter;
-	font-style: normal;
-	text-transform: uppercase;
-	line-height: 1em;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	}
-
+#hero h1, #menu h1 {
+    padding-top: 60px;
+    color: #a2834e;
+    margin: 10px auto 10px auto;
+    letter-spacing: 2px;
+    font-size: 7em;
+    font-weight: lighter;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1em;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
 #hero h2, #menu h2 {
-	text-align:center;
-	color:#a2834e;
-	font-weight:100;
-	letter-spacing:2.4px;
-	padding-bottom:20px;
-	margin-top:-10px;
-	font-size:1.2em;
+    text-align: center;
+    color: #a2834e;
+    font-weight: 100;
+    letter-spacing: 2.4px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    font-size: 1.2em;
 }
-
 #hero a {
-	color:#c2c2c2;
-	text-align:center;
-	text-transform:uppercase;
-	font-size:1em;
-	padding-top:20px;
-	font-style:normal;
-	letter-spacing:2px;
-	margin-left:125px;
+    color: #c2c2c2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-top: 20px;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-left: 125px;
 }
-
-#hero a:hover{
-	color:#a2834e;
+#hero a:hover {
+    color: #a2834e;
 }
-
-#hero p{
-	color:#c2c2c2;
-	width:480px;
-	padding-top:20px;
-	margin: 0 auto;
-	font-size:.8em;
-	line-height:1.7em;
-	text-align:center;
-	padding-bottom:40px;
-
+#hero p {
+    color: #c2c2c2;
+    width: 480px;
+    padding-top: 20px;
+    margin: 0 auto;
+    font-size: .8em;
+    line-height: 1.7em;
+    text-align: center;
+    padding-bottom: 40px;
 }
-
-#line{
-	width: 80px;
-	height: 2px;
-	display: block;
-	background-color: #c2c2c2;
-	margin: 15px auto;
-	margin-top:30px;
+#line {
+    width: 80px;
+    height: 2px;
+    display: block;
+    background-color: #c2c2c2;
+    margin: 15px auto;
+    margin-top: 30px;
 }
-
 /* 
 CSS for the Menu Page
 */
 
-.main_section{
-	margin-top:-40px;
+.main_section {
+    margin-top: -40px;
 }
-
 #menu {
-background-color: black;
-width: 850px;
-margin: 0 auto;
-color: #a2834e;
-font-weight: 100;
-letter-spacing: 2.4px;
-height: 230px;
-margin-top: -100px;
-opacity:.8;
+    background-color: black;
+    width: 850px;
+    margin: 0 auto;
+    color: #a2834e;
+    font-weight: 100;
+    letter-spacing: 2.4px;
+    height: 230px;
+    margin-top: -100px;
+    opacity: .8;
 }
-
-#menu_main,#location_main{
-	width:850px;
-	background-color: #f7f6f5;
-	margin: 0 auto;	
+#menu_main, #location_main {
+    width: 850px;
+    background-color: #f7f6f5;
+    margin: 0 auto;
 }
-
-.main_section h2{
-	padding-bottom:30px;
+.main_section h2 {
+    padding-bottom: 30px;
 }
-
-#list h1{
-text-align:center;
-padding-top:45px;
-margin-bottom:30px;
-font-size: 30px;
+#list h1 {
+    text-align: center;
+    padding-top: 45px;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
-
-#menu_main{
-	margin-top:-40px;
+#menu_main {
+    margin-top: -40px;
 }
-
-#menu_main h1{
-	padding-top:45px;
+#menu_main h1 {
+    padding-top: 45px;
 }
-
-#menu_main h2{
-	text-align:center;
+#menu_main h2 {
+    text-align: center;
 }
-
 .cupcake {
-height: 474px;
-margin-top: -20px;
-padding-bottom: 40px;
-margin-left: 75px;
+    height: 474px;
+    margin-top: -20px;
+    padding-bottom: 40px;
+    margin-left: 75px;
 }
-
 #menu_main p {
-	font-size: 14px;
-	line-height: 1.7em;
-	text-transform: none;
-	letter-spacing: .8px;
-	font-weight: 400;
-	font-style: normal;
-	color: #262626;
-	width: 675px;
-	margin: 0 auto;
-	padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.7em;
+    text-transform: none;
+    letter-spacing: .8px;
+    font-weight: 400;
+    font-style: normal;
+    color: #262626;
+    width: 675px;
+    margin: 0 auto;
+    padding-bottom: 25px;
 }
-
-#menu_main h1,#location_main h1{
-	text-align:center;
-	font-size: 30px;
-	margin-top: 40px;
-	margin-bottom: 30px;	
+#menu_main h1, #location_main h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-#menu_item{
-	width: 700px;
-	margin-left: 75px;
+#menu_item {
+    width: 700px;
+    margin-left: 75px;
 }
-#menu_item_footer{
-	width: 700px;
-	margin-left: 75px;
-	margin-bottom:80px;
-	padding-bottom:40px;
-	
+#menu_item_footer {
+    width: 700px;
+    margin-left: 75px;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
 }
-
-.menu-title{
-	font-size:18px;
+.menu-title {
+    font-size: 18px;
 }
-
-blockquote{
-	width: 495px;
-	line-height: 1.5em;
-	font-family: Georgia,sans-serif;
-	letter-spacing: 1.3px;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 35px;
+blockquote {
+    width: 495px;
+    line-height: 1.5em;
+    font-family: Georgia, sans-serif;
+    letter-spacing: 1.3px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
-.description{
+.description {
     -moz-column-count: 2;
     -moz-column-gap: 1em;
-	-webkit-column-width: 18em;
+    -webkit-column-width: 18em;
     -webkit-column-count: 2;
     -webkit-column-gap: 1em;
 }
-
-.shop_left{
-	margin-left: 35px;
-	font-size:1.2em;
+.shop_left {
+    margin-left: 35px;
+    font-size: 1.2em;
 }
-
-.shop_right{
-	font-size:1.2em;
+.shop_right {
+    font-size: 1.2em;
 }
-
-.shop-price{
-	margin-left: 35px;
-	font-size:.90em;
-	margin-top: -20px;
+.shop-price {
+    margin-left: 35px;
+    font-size: .90em;
+    margin-top: -20px;
 }
-.shop-price-right{
-	font-size:.90em;
-	margin-top: -20px;
+.shop-price-right {
+    font-size: .90em;
+    margin-top: -20px;
 }
-#list{
- 	width:850px;
- 	background-color:#f7f6f5;
- 	margin: 0 auto;
- 	margin-top:-20px;
-	margin-bottom: 65px;
-	padding-bottom: 55px;
+#list {
+    width: 850px;
+    background-color: #f7f6f5;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 65px;
+    padding-bottom: 55px;
 }
-.shop_images_left{
-	width: 380px;
-	height: 343px;
-	padding-left:35px;
-	padding-top:60px;
+.shop_images_left {
+    width: 380px;
+    height: 343px;
+    padding-left: 35px;
+    padding-top: 60px;
     -webkit-transition: opacity .3s ease-out;
     -moz-transition: opacity .3s ease-out;
     transition: opacity .3s ease-out;
 }
-.shop_images_right{
-	width: 380px;
-	height: 343px;
-	padding-top:60px;
+.shop_images_right {
+    width: 380px;
+    height: 343px;
+    padding-top: 60px;
     -webkit-transition: opacity .3s ease-out;
     -moz-transition: opacity .3s ease-out;
     transition: opacity .3s ease-out;
-} 
- .shop_images_right:hover{
-	 opacity: .8;
 }
- .shop_images_left:hover{
-	 opacity: .8;
-}
-
 /* 
 CSS for the Location Page
 */
 
-.location_line{
-	width: 700px;
-	height: 2px;
-	display: block;
-	background-color: #c2c2c2;
-	margin: 15px auto;
-	margin-top:30px;
+.location_line {
+    width: 700px;
+    height: 2px;
+    display: block;
+    background-color: #c2c2c2;
+    margin: 15px auto;
+    margin-top: 30px;
 }
-
-#location_main{
-	background:#f7f6f5;
-	width:850px;
-	margin: 0 auto;
-	margin-top: -40px;
-	padding-bottom: 55px;
-	margin-bottom: 65px;		
+#location_main {
+    background: #f7f6f5;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: -40px;
+    padding-bottom: 55px;
+    margin-bottom: 65px;
 }
-
-#location_main h1{
-	padding-top:45px;
+#location_main h1 {
+    padding-top: 45px;
 }
-
-#location_main p{
-	width: 495px;
-	line-height:1.5em;
-	letter-spacing:.7px;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom:35px;
+#location_main p {
+    width: 495px;
+    line-height: 1.5em;
+    letter-spacing: .7px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
-
-.street_location{
-	margin-top:20px;
+.street_location {
+    margin-top: 20px;
 }
-#wrapper{
-	width: 700px;
-	height: 200px;
-	margin-left: 75px;
-	margin-bottom: 45px;
-	margin-top: 30px;
+#wrapper {
+    width: 700px;
+    height: 200px;
+    margin-left: 75px;
+    margin-bottom: 45px;
+    margin-top: 30px;
 }
-#sideBar{
-	width: 290px;
-	height: 200px;
-	display: block;
-	float:left;
-	margin-right: 100px;
+#sideBar {
+    width: 290px;
+    height: 200px;
+    display: block;
+    float: left;
+    margin-right: 100px;
 }
-#mainContent{
-    width:306px;
-    height:200px;
-    display:block;
-    float:left;
+#mainContent {
+    width: 306px;
+    height: 200px;
+    display: block;
+    float: left;
 }
 #sideBar p {
-	text-align:left;
+    text-align: left;
 }
-
 /* Responsive Code */
-
 /* Landscape phones and down */
+
 @media (max-width: 480px) {
- #hero{
-	width:338px;
-	height:450px;
-	margin-top:20px;
-	font-size: .8em;
- }
-
- #hero a {
- 	text-align: left;
- 	margin-left: 40px;
- }
-
-  #hero p {
- 	font-size: 1em;
- 	width: 338px;
- 	text-align: center;
-
- }
+    #hero {
+        width: 338px;
+        height: 450px;
+        margin-top: 20px;
+        font-size: .8em;
+    }
+    #hero a {
+        text-align: left;
+        margin-left: 40px;
+    }
+    #hero p {
+        font-size: 1em;
+        width: 338px;
+        text-align: center;
+    }
